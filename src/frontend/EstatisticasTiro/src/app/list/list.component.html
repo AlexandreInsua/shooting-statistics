@@ -1,0 +1,6 @@
+<h1>Lista de tiradas</h1>
+<div>
+    <ul *ngFor="let s of shootings">
+        <li>{{s.modalityStr}}, {{s.disciplineStr}}, {{s.average}} - {{s.dateStr }}: {{s.scores}}</li>
+    </ul>
+</div>
