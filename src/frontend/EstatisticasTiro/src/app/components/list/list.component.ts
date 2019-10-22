@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ShootingsService } from '../services/shootings.service';
+import { ShootingsService } from '../../services/shootings.service';
 
 @Component({
   selector: 'app-list',

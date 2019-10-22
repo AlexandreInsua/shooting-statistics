@@ -40,6 +40,7 @@ var op = {
             case 1: m = "Tirada social"; break;
             case 2: m = "Campionato provincial"; break;
             case 3: m = "Campionato galego"; break;
+            case 4: m = "Oficial"; break;
             case 7: m = "Exercicio controlado"; break;
             case 8: m = "Torneo Cidade de Barcelos"; break;
             case 9: m = "Exhibición"; break;

@@ -10,9 +10,10 @@ modalidades
     1: tirada social
     2: campionato provincial
     3: campionato galego
-    4:
-    8: Torneo Cidade de Barcelos
-    9: exhibicións
+    4: oficial, torneos, etc
+    5: exhibición
+    6: outros
+    
 */
 
 var ScoreSchema = Schema (

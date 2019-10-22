@@ -4,10 +4,11 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainComponent } from './main/main.component';
-import { HeaderComponent } from './header/header.component';
-import { ListComponent } from './list/list.component';
-import { CreateComponent } from './create/create.component';
+import { MainComponent } from './components/main/main.component';
+import { HeaderComponent } from './components/header/header.component';
+import { ListComponent } from './components/list/list.component';
+import { CreateComponent } from './components/create/create.component';
+import { FormatNumberPipe } from './pipes/format-number.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CreateComponent } from './create/create.component';
     MainComponent,
     HeaderComponent,
     ListComponent,
-    CreateComponent
+    CreateComponent,
+    FormatNumberPipe
   ],
   imports: [
     BrowserModule,
